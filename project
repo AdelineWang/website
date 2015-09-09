@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>  
+
+	<title>Adeline Wang</title>
+	<link href = "main1.css" rel="stylesheet" type="text/css"/>
+ 	 </head>
+ <h1> High School Internship Program (HIP)  </h1>
+  <h2> University of Alberta </h2>
+ 
+ 
+<svg width="4000" height="1100">
+  <rect width=600 height="1000" style="fill:blue;fill-opacity:0.0" />
+</svg>
+
+
+ <p>
+
+In summer 2014, I participated in the High School Summer Internship Program (HIP) at the University of Alberta's Department of Computing Science. I worked in a lab to explore artificial intelligence within robots in Dr. Rich Sutton’s lab. Through this summer, I participated in university level research and learnt theoritical concepts in artificial intelligence (AI). Specifically, we worked in Reinforcement Learning (RL), which enable robots to predict the consequence of the its behavior, as well as modify and control it accordingly so that the future outcome and rewards are maximized. I also engaged in weekly seminars in topics from patents to databases in the future. </p> 
+<p> Research poster: 
+	Website: 
+</p>
+
+
+ <p>
+The goal of this research was to evaluate a collaborative human-robot control system (person and robot controled) against 2 other systems (only person control or only robot control) by determining how much distance it travels in an environment. The robot learns to predict collisions and to turn when an imminent collision is predicted. We determined that the collaborative system allows the robot to travel the furthest distance on average. The human control had the lowest average travelled on average. </p>
+
+ <p>
+To start off our research, I was exposed to programming for the first time. Though I did not write all the codes myself, this was my first exposure to the logic of programming and some basics of Python. My partner and I programmed a joystick using Python and the SDL2 library to control the movements of our robot. Users supposedly have total control over the robot's actions. However, in the scope of Reinforcement Learning the robot and its Raspberry Pi have the ability to remember human's controlling errors and retain our wrongs after several trials. The camera on the robot enables it to view its environment and the interruptions in its path. Ultimately, our robot can decide if it should follow the controller or not. </p>
+
+  <p>
+Next, we wrote an algorithm to obtain values, rewards, and returns. To better grasp the seemingly complex algorithms we were using, we learned the theory behind RL and the steps to obtain a return and value. We recognized that there are several states in the path to the terminal state. In between each state, a quantity is projected, called "reward". The sum of "rewards" is the "return". Each trial generates a random "return" due to the uncertainty of the path. Upon infinite trials, one can recognize the average of "returns", which represents the "value". Because it is not practical to complete infinite trials, we achieved an "estimated value" by executing the trial 10000 times. We then used the group given to use by our research associate to measure the distance the robot travelled., but modified it accordingly to the type of system we were using. </p>
+
+<p> Our codes and poster can be accessed here: https://sites.google.com/site/summerinternshipdemos/home/human-robot-collaboration </p>
+
+
+
+
+<div top: 20px;>
+ <ul>
+ 	<li class="a"> Secret Santa&Friends </li>
+ 	<li class="b"> Sked-Unhackathon </li>
+ 	<li class="c"> High School Internship </li>
+
+ </ul>
+</div>
+
+	
+ 	
+
+</html>
