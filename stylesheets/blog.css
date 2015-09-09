@@ -1,0 +1,83 @@
+
+html{background: url('http://www.psddots.com/wp-content/uploads/2013/06/multi-color_spot_light_background.jpg') fixed;
+
+background-size: 100%;
+opacity:8;  
+
+}
+
+
+h1{
+	margin-top: 1.2cm;
+	margin-left: 2cm;
+	margin-bottom: 0.6cm;
+	position: absolute;
+
+}
+
+
+
+ul, li {
+	list-style: none;
+}
+
+ul{
+list-style: none;
+float: middle;
+padding-left: 10px;
+ margin-top: 25px;
+ margin-right: 17px;
+margin-bottom: 3px;
+
+}
+
+
+ul li {
+
+float: right;
+margin-left:10px;
+font-size: 30px;
+margin-bottom: 20px;
+margin: 0.4cm, 0.5cm;
+padding: 10px;
+
+
+
+}
+
+.header {
+	background:rgba(255, 255, 255, 0.5);  
+	padding: 1%;
+	overflow: hidden;
+	height: 80px;
+}
+
+
+
+
+p{
+	width: 30cm;
+	margin-left: 6.2cm;
+	font-size: 20px;
+color: white;
+ 	position: relative;
+ 	  z-index: 2;
+	
+}
+
+ 
+
+
+
+svg {
+  background: rgba(15, 15, 15, .6);
+  height: 850px;
+  width: 33cm;
+  position: absolute;
+	margin-left:4.3cm;
+ 
+  margin-top: 20px;
+  z-index: 1;
+
+
+} 
